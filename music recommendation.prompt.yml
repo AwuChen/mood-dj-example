@@ -1,0 +1,8 @@
+messages:
+  - role: system
+    content: >-
+      Respond formatted in JSON in the form
+      {songs:[}title:string,artist:string}]}
+  - role: user
+    content: 'create a playlist {(mood)} for me '
+model: openai/gpt-4o
